@@ -1,0 +1,26 @@
+{
+    "cars":[
+        {
+            "id":1,
+            "title":"matatu"
+        },
+        {
+            "id":2,
+            "title":"ford"
+        }
+    ],
+    "origin":[
+        {
+            "id":3,
+            "country":"japan"
+        },
+        {
+            "id":4,
+            "country":"USA"
+        }
+    ],
+    "scripts":{
+        "server":"json-server --watch db.json --port 3001"
+    }
+
+}
